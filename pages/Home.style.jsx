@@ -6,6 +6,8 @@ export const HomeStyle = StyleSheet.create({
         height: "100%" 
     },
     container: {
-        padding: 20
+        padding: 20,
+        flex: 1,
+        justifyContent: "space-between"
     }
 });

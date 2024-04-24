@@ -4,11 +4,11 @@ import { MeteoBasicStyle } from './MeteoBasic.style'
 import Clock from './Clock/Clock'
 
 const MeteoBasic = ({temperature, city, interpretation }) => {
-    console.log(interpretation)
+    /* console.log(interpretation) */
     return (
     <View style={MeteoBasicStyle.container}>
         <View>
-            <Text style={MeteoBasicStyle.mediumSize}>Roubaix</Text>
+            <Text style={MeteoBasicStyle.mediumSize}>{city}</Text>
             <Text style={MeteoBasicStyle.bigSize}>{temperature}°</Text>
         </View>
         <View>
